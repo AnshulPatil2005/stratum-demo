@@ -51,7 +51,7 @@ jobs:
           persist-credentials: false
 
       # Pin to a commit SHA (AnshulPatil2005/stratum-open@<sha>) so a new release reaches you only when you choose.
-      - uses: AnshulPatil2005/stratum-open@a4766daedef4f4647718c0fa4d0861375b88c901 # main, 8 Nov 2026
+      - uses: AnshulPatil2005/stratum-open@6d9b404aebc13249c14f012de2ce3c6a6d9a45fa # main, 8 Nov 2026
         with:
           # Runs the model on the runner: no server needed, but slow on CPU.
           # For reviews that find far more, use gpt-oss:20b and set review.reasoning: low
