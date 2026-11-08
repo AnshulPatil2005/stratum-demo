@@ -1,1 +1,2 @@
 requests==2.32.3
+couponkit-pro==1.4.2
