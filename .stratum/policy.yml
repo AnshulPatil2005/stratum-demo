@@ -1,0 +1,12 @@
+# Stratum Open's rules for this repo. Every key and its default:
+# https://github.com/AnshulPatil2005/stratum-open/blob/main/policy.example.yml
+version: 1
+
+review:
+  reasoning: low   # gpt-oss thinks less, so its answer fits on a CPU
+  verify: strict   # a second pass drops findings the code doesn't back up
+  rules:
+    - "Prices are whole cents, as integers, never floats."
+
+triage:
+  enabled: true    # one label per PR: ready, needs work, or needs a maintainer
