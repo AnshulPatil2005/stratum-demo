@@ -1,5 +1,5 @@
 # Stratum Open's rules for this repo. Every key and its default:
-# https://github.com/AnshulPatil2005/stratum-open/blob/main/policy.example.yml
+# https://github.com/stratum-org/stratum-open/blob/main/policy.example.yml
 version: 1
 
 review:
